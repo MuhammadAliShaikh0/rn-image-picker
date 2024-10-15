@@ -1,3 +1,5 @@
+    <uses-permission android:name="android.permission.launchCamera" />(android manifest)
+
 import { View, Text, Touchable, TouchableOpacity, Image } from 'react-native'
 import React, { useState } from 'react'
 import { launchCamera } from 'react-native-image-picker';
